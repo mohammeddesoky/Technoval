@@ -5,7 +5,7 @@ def Binary_Search(arr, target):
         mid = (left + right) // 2
         if target == arr[mid]:
             return f'Found in index {mid}'
-        if target > mid:
+        if target > arr[mid]:
             left = mid + 1
         else:
             right = mid - 1
