@@ -20,5 +20,8 @@ Install dependencies:
 
 ```bash
 pip install streamlit
+```
 
+```bash
 streamlit run app.py
+```
