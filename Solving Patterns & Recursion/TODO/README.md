@@ -17,11 +17,10 @@ This project is a simple task management system built using Python, SQLite, and 
 ## Run the project
 
 Install dependencies:
-
 ```bash
 pip install streamlit
 ```
-
+Run:
 ```bash
 streamlit run app.py
 ```
