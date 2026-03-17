@@ -47,7 +47,7 @@ st.title("Intern Management System")
 
 menu = st.sidebar.selectbox(
     "Menu",
-    ["Add Intern", "View Interns", "Search Intern"]
+    ["Add Intern", "View & Edit Interns", "Search Intern"]
 )
 
 # add intern
@@ -68,7 +68,7 @@ if menu == "Add Intern":
         st.success("Intern added successfully")
 
 # view interns
-elif menu == "View Interns":
+elif menu == "View & Edit Interns":
 
     st.subheader("All Interns")
 
